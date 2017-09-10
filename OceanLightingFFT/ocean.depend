@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1270020971 source:z:\projets\ocean\demofft\program.cpp
+	<stdlib.h>
+	<stdio.h>
+	<cassert>
+	<string>
+	"glew.h"
+	"Program.h"
+
+1177623960 z:\projets\ocean\demofft\glew.h
+	<stddef.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1269248329 z:\projets\ocean\demofft\program.h
+
+1271856033 source:z:\projets\ocean\demofft\main.cpp
+	<algorithm>
+	<fstream>
+	<iostream>
+	<cmath>
+	"glew.h"
+	"glut.h"
+	"AntTweakBar.h"
+	"vec4.h"
+	"mat4.h"
+	"Program.h"
+	<windows.h>
+	<time.h>
+	<sys/time.h>
+	<time.h>
+	<unistd.h>
+
+1197124560 z:\projets\ocean\demofft\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1240516980 z:\projets\ocean\demofft\anttweakbar.h
+	<stddef.h>
+	<string>
+	<string>
+
+1258816920 z:\projets\ocean\demofft\vec4.h
+	<cassert>
+
+1258816860 z:\projets\ocean\demofft\mat4.h
+

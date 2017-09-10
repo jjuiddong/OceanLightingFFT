@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="Main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="18064" topLine="0" />
+	</File>
+	<File name="Program.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3118" topLine="81" />
+	</File>
+	<File name="Program.h" open="0" top="0" tabpos="0">
+		<Cursor position="218" topLine="0" />
+	</File>
+	<File name="atmosphere.glsl" open="0" top="0" tabpos="0">
+		<Cursor position="2748" topLine="48" />
+	</File>
+	<File name="fftx.glsl" open="0" top="0" tabpos="0">
+		<Cursor position="249" topLine="24" />
+	</File>
+	<File name="ffty.glsl" open="0" top="0" tabpos="0">
+		<Cursor position="257" topLine="24" />
+	</File>
+	<File name="ocean.glsl" open="0" top="0" tabpos="1">
+		<Cursor position="10290" topLine="217" />
+	</File>
+	<File name="variances.glsl" open="0" top="0" tabpos="2">
+		<Cursor position="632" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

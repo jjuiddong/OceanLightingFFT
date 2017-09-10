@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ocean" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="oceand" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build\obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="ocean" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build\obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DGLUT_NO_WARNING_DISABLE" />
+			<Add option="-DGLUT_NO_LIB_PRAGMA" />
+			<Add option="-D_STDCALL_SUPPORTED" />
+			<Add option="-D_M_IX86" />
+		</Compiler>
+		<Linker>
+			<Add option="glew32.dll" />
+			<Add library="AntTweakBar" />
+			<Add library="glut32" />
+			<Add library="glu32" />
+			<Add library="opengl32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add directory="." />
+		</Linker>
+		<Unit filename="Main.cpp" />
+		<Unit filename="Program.cpp" />
+		<Unit filename="Program.h" />
+		<Unit filename="atmosphere.glsl" />
+		<Unit filename="clouds.glsl" />
+		<Unit filename="fftx.glsl" />
+		<Unit filename="ffty.glsl" />
+		<Unit filename="init.glsl" />
+		<Unit filename="mat4.h" />
+		<Unit filename="ocean.glsl" />
+		<Unit filename="sky.glsl" />
+		<Unit filename="skymap.glsl" />
+		<Unit filename="variances.glsl" />
+		<Unit filename="vec4.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
